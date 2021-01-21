@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather in Germany</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class ="zip-container">
+        <label for="zip">Zipcode Number:</label>
+        <input type="text" pattern="[0-9]*" id="zip" placeholder="Germany">
+      </div>
+      <div class ="feelings-container">
+        <label for="feelings">How are you feeling today?</label>
+        <textarea class="myInput" placeholder="feelings" id="feelings" rows="5" cols="20"></textarea>
+      </div>
+      <div class ="botton-container">
+        <button id="generate" type="submit">Weather ></button>
+      </div>
+      <div class ="holder-recent">
+        <div class = "title">New Entry</div>
+        <div id ="entryHolder">
+          <div id ="date"></div> 
+          <div id ="temp"></div>
+          <div id ="content"></div>
+        </div>
+      </div>
+      <div class ="holder-last">
+        <div class="title">Last Entry</div>
+        <div id="entryHolder-last">
+          <div id="date-last"></div> 
+          <div id="temp-last"></div>
+          <div id="content-last"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
