@@ -8,7 +8,7 @@ let date = '';
 
 // Api Url & key
 let baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
-const apiKey = 'af52f6e1be6f050061364fb6e1a03e35';
+const apiKey = '';
 
 document.getElementById('generate').addEventListener('click', action);
 
