@@ -8,7 +8,7 @@ let date = '';
 
 // Api Url & key
 let baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
-const apiKey = '';
+const apiKey = ''; //add between the apostrophes your api key. Sign up in 'https://openweathermap.org/api' and get your Key.
 
 document.getElementById('generate').addEventListener('click', action);
 
