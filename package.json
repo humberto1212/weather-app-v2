@@ -1,5 +1,5 @@
 {
-  "name": "weather-app",
+  "name": "weather-app-v2",
   "version": "1.0.0",
   "description": "This is a web app that uses Web API and user data to dynamically update the UI",
   "main": "server.js",
