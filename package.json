@@ -13,8 +13,5 @@
     "express": "^4.17.1"
   },
   "author": "Humberto Angelucci",
-  "license": "ISC"
-  
-
-  
+  "license": "ISC"  
 }
